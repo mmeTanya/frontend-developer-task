@@ -3,7 +3,7 @@
   "version": "1.1.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://mmeTanya.github.io/frontend-developer-task",
+  "homepage": "https://mmetanya.github.io/frontend-developer-task/",
   "scripts": {
     "dev": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /frontend-developer-task/"
