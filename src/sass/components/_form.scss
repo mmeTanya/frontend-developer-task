@@ -1,0 +1,60 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 10px;
+  padding: 5px;
+
+  &__field {
+    margin-bottom: 10px;
+  }
+
+  &__label {
+    color: $text-color;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.01em;
+
+    display: block;
+    margin-bottom: 4px;
+  }
+
+  .input-group-absolute {
+    position: relative;
+
+    &__input {
+      width: 195px;
+      height: 30px;
+      padding-left: 15px;
+      border: 3px solid $form-border-color;
+      border-radius: 4px;
+      outline: none;
+      transition: border $transition-duration $timing-function;
+      @media screen and (min-width: 570px) {
+        width: 310px;
+        height: 40px;
+      }
+      @media screen and (min-width: 900px) {
+        width: 370px;
+      }
+    }
+
+    &__icon {
+      position: absolute;
+      right: 11px;
+      bottom: 11px;
+      fill: $text-color;
+    }
+
+    &__input:hover,
+    &__input:focus {
+      border: 3px solid $accent-color;
+      box-shadow: 1px 4px 6px $accent-color;
+    }
+  }
+
+  &:hover &__icon,
+  &:focus &__icon {
+    fill: $accent-color;
+  }
+}

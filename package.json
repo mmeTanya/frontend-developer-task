@@ -1,0 +1,34 @@
+{
+  "name": "frontend-developer-task",
+  "version": "1.1.0",
+  "description": "",
+  "main": "index.js",
+  "homepage": "https://mmeTanya.github.io/frontend-developer-task",
+  "scripts": {
+    "dev": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /frontend-developer-task/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mmeTanya/frontend-developer-task.git"
+  },
+  "keywords": [],
+  "author": "Tetiana Legois <mme.tanyalegois@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://mmeTanya.github.io/frontend-developer-task/issues"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5",
+    "parcel-plugin-handlebars-precompile": "^1.0.2",
+    "parcel-plugin-nuke-dist": "^1.0.1",
+    "posthtml-include": "^1.6.2",
+    "sass": "^1.32.8"
+  },
+  "dependencies": {
+    "@buddenbrock/form-validation.js": "^1.1.1",
+    "flatpickr": "^4.6.9",
+    "lodash.throttle": "^4.1.1",
+    "notiflix": "^3.2.5"
+  }
+}
