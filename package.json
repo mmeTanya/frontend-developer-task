@@ -1,5 +1,5 @@
 {
-  "name": "parcel-project-template",
+  "name": "frontend-developer-task",
   "version": "1.1.0",
   "description": "",
   "main": "index.js",
@@ -13,7 +13,7 @@
     "url": "git+https://github.com//mmetanya/rontend-developer-task.git"
   },
   "keywords": [],
-  "author": "Alexander Repeta <alexander.repeta@gmail.com>",
+  "author": "Tetiana Legois <mme.tanyalegois@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/goitacademy/parcel-project-template/issues"
