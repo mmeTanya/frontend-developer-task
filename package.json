@@ -1,19 +1,19 @@
 {
-  "name": "frontend-developer-task",
+  "name": "parcel-project-template",
   "version": "1.1.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://mmetanya.github.io/frontend-developer-task/",
+  "homepage": "https:///mmetanya.github.io/frontend-developer-task/",
   "scripts": {
     "dev": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /frontend-developer-task/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mmeTanya/frontend-developer-task.git.git"
+    "url": "git+https://github.com//mmetanya/rontend-developer-task.git"
   },
   "keywords": [],
-  "author": "Tetiana Legois <mme.tanyalegois@gmail.com>",
+  "author": "Alexander Repeta <alexander.repeta@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/goitacademy/parcel-project-template/issues"
@@ -26,9 +26,6 @@
     "sass": "^1.32.8"
   },
   "dependencies": {
-    "@buddenbrock/form-validation.js": "^1.1.1",
-    "flatpickr": "^4.6.9",
-    "lodash.throttle": "^4.1.1",
     "notiflix": "^3.2.5"
   }
 }
