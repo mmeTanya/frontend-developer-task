@@ -16,7 +16,7 @@
   "author": "Tetiana Legois <mme.tanyalegois@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://mmeTanya.github.io/frontend-developer-task/issues"
+    "url": "https://github.com/goitacademy/parcel-project-template/issues"
   },
   "devDependencies": {
     "parcel-bundler": "^1.12.5",
